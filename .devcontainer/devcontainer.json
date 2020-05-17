@@ -1,0 +1,12 @@
+{
+	"name": "kind-dev-container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "docker-in-docker",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/zsh"
+  },
+  "extensions": [],
+  "forwardPorts": [3000]
+}
